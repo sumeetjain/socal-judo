@@ -1,0 +1,21 @@
+h1{
+	position: relative;
+	top: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	color: #3bb44a;
+	font-size: 32px;
+	font-weight: normal;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 22px;
+}
+
+#features{
+	margin: 2px 0 0 48px;
+}
+#features img{
+	border: 1px solid #222;
+}
+#features .column2{
+	margin: 0 45px;
+}

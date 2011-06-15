@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #006937 url(/images/global/gi.jpg) repeat-x top center;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #222;
+}
+
+/* UTILITIES */
+.clearfix:after{
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+.clearfix{
+	zoom: 1;
+}
+
+.column1, .column2, .column3{
+	float: left;
+}
+
+/* LAYOUT */
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+#content{
+	background: #fff;
+	padding: 10px 15px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+footer{
+	color: #ccc;
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+#logo{
+	display: block;
+	width: 401px;
+	height: 0;
+	padding-top: 145px;
+	overflow: hidden;
+	background: url(/images/global/logo.png) no-repeat;
+	margin: 30px auto 40px;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+	padding: 0 13px;
+}
+nav a{
+	text-decoration: none;
+	color: #444;
+	font-weight: bold;
+	text-transform: lowercase;
+}

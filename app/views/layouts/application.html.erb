@@ -29,7 +29,36 @@
 </head>
 
 <body>
-	<%= yield %>
+	<header>
+		<a id="logo" href="/">SoCal Judo</a>
+		
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/coaches">Coaches</a></li>
+				<li><a href="/philosophy">Philosophy</a></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/extras">Extras</a></li>
+				<li><a href="/faq">FAQ</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="main">
+		<%= render :partial => '/home/index' if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>
+		
+		<div id="content" class="container">
+			<%= yield %>
+		</div>
+		
+		<footer class="container">
+			SoCal Judo<br />
+			30755 E. Loma Linda Rd.<br />
+			Temecula, California, 92592<br />
+			(951) 699-8969
+		</footer>
+	</section>
 
 	<%#= javascript_include_tag 'jquery.tipsy' %>
 	<%= javascript_include_tag 'global' %>
