@@ -84,6 +84,8 @@ dd{
 	padding: 10px 15px;
 	margin-top: 60px;
 	margin-bottom: 60px;
+	box-shadow: #000 0 3px 8px;
+	-webkit-box-shadow: #000 0 3px 8px;
 }
 footer{
 	color: #ccc;
