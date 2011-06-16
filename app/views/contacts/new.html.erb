@@ -1,6 +1,6 @@
 <h1>We'd love to hear from you.</h1>
 
-<p>Use the form below to send us an email. Or, if you're looking for an enrollment form, <a href="">just click here</a>.</p>
+<p>Use the form below to send us an email. Or, if you're looking for an enrollment form, <%= link_to("just click here", "/files/enroll.pdf") %>.</p>
 
 <%= form_for @contact do |f| %>
 	<% if @contact.errors.any? %>

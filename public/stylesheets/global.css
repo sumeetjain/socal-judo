@@ -20,6 +20,10 @@ a img{
 	border: none;
 }
 
+p{
+	line-height: 1.4;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
