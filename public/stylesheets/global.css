@@ -53,6 +53,11 @@ dd{
 	margin-bottom: 12px;
 }
 
+.caption{
+	font-size: 12px;
+	color: #666;
+}
+
 /* UTILITIES */
 .clearfix:after{
 	content: ".";

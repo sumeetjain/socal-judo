@@ -1,0 +1,21 @@
+#content img{
+	border: 1px solid #666;
+}
+.picLeft{
+	float: left;
+	margin: 0 14px 8px 0;
+	width: 208px;
+}
+.picRight{
+	float: right;
+	margin: 0 0 8px 14px;
+	width: 189px;
+}
+
+#videoGallery{
+	clear: both;
+	padding-top: 20px;
+}
+#videoGallery .column2{
+	float: right;
+}

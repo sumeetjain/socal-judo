@@ -1,0 +1,18 @@
+#primaryContent .column1{
+	width: 510px;
+}
+#primaryContent .column2,{
+	float: right;
+}
+
+#primaryContent .column2 .column1,
+#primaryContent .column2 .column2{
+	width: 224px;
+}
+
+#secondaryContent{
+	padding-top: 30px;
+}
+#secondaryContent .column2{
+	margin: 0 13px;
+}
