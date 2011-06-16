@@ -1,0 +1,27 @@
+#content img{
+	border: 1px solid #666;
+}
+
+.column1, .column2{
+	width: 458px;
+}
+.column1{
+	margin-right: 70px;
+}
+
+.column2 .column1{
+	width: 200px;
+	margin-right: 10px;
+}
+.column2 .column2{
+	width: 232px;
+}
+
+iframe{
+	margin-bottom: 20px;
+}
+
+.caption{
+	font-size: 12px;
+	color: #666;
+}
