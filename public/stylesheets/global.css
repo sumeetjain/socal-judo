@@ -31,6 +31,17 @@ h6 a:hover{
 	text-shadow: #888 1px 0 1px;
 }
 
+h3{
+	color: #555;
+	margin: 0 0 5px;
+	padding: 0;
+}
+
+p{
+	margin-top: 0;
+	padding-top: 0;
+}
+
 /* UTILITIES */
 .clearfix:after{
 	content: ".";
