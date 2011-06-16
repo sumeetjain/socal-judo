@@ -1,5 +1,7 @@
 SocalJudo::Application.routes.draw do
 
+  resources :contacts
+
   match "extras" => "extras#index"
   get "extras/birth_of_judo"
   get "extras/judo_and_competition"
