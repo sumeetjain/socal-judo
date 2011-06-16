@@ -7,8 +7,28 @@ body{
 	color: #222;
 }
 
-a:hover{
+a{
+	text-decoration: none;
+}
+a, a:hover{
 	color: #006937;
+}
+a:hover{
+	text-decoration: underline;
+}
+a img{
+	border: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover{
+	color: #3bb44a;
+	text-decoration: none;
+	text-shadow: #888 1px 0 1px;
 }
 
 /* UTILITIES */

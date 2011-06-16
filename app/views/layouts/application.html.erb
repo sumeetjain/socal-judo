@@ -48,7 +48,7 @@
 	<section id="main">
 		<%= render :partial => '/home/index' if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>
 		
-		<div id="content" class="container">
+		<div id="content" class="container clearfix">
 			<%= yield %>
 		</div>
 		
