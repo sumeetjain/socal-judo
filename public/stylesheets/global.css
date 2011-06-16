@@ -42,6 +42,17 @@ p{
 	padding-top: 0;
 }
 
+dl, dt, dd{
+	margin: 0;
+	padding: 0;
+}
+dt{
+	font-weight: bold;
+}
+dd{
+	margin-bottom: 12px;
+}
+
 /* UTILITIES */
 .clearfix:after{
 	content: ".";

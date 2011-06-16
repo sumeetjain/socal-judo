@@ -1,0 +1,12 @@
+.column1, .column2{
+	width: 455px;
+}
+.column1{
+	margin-right: 75px;
+}
+
+.column1 img, .column2 img{
+	border: 1px solid #666;
+	display: block;
+	margin-bottom: 12px;
+}
