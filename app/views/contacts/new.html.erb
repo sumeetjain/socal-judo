@@ -1,7 +1,11 @@
+<h1>We'd love to hear from you.</h1>
+
+<p>Use the form below to send us an email. Or, if you're looking for an enrollment form, <a href="">just click here</a>.</p>
+
 <%= form_for @contact do |f| %>
 	<% if @contact.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this feed from being saved:</h2>
+      <p>There was a problem sending your message.</p>
 
       <ul>
       <% @contact.errors.full_messages.each do |msg| %>
