@@ -34,12 +34,12 @@
 		
 		<nav>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/coaches">Coaches</a></li>
-				<li><a href="/philosophy">Philosophy</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/extras">Extras</a></li>
-				<li><a href="/faq">FAQ</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>"><a href="/">Home</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "coaches" %>"><a href="/coaches">Coaches</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/philosophy" %>"><a href="/philosophy">Philosophy</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "services" %>"><a href="/services">Services</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "extras" %>"><a href="/extras">Extras</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/faq" %>"><a href="/faq">FAQ</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
