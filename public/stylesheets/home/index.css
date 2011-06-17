@@ -1,6 +1,9 @@
 #content{
 	text-align: center;
 }
+#content iframe{
+	margin-bottom: 20px;
+}
 
 h1{
 	position: relative;
