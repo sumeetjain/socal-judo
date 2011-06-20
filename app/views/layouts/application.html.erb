@@ -32,7 +32,7 @@
 	<header>
 		<a id="logo" href="/">SoCal Judo</a>
 		
-		<nav>
+		<nav class="container">
 			<ul>
 				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>"><a href="/">Home</a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "coaches" %>"><a href="/coaches">Coaches</a></li>
@@ -40,8 +40,13 @@
 				<li class="<%= "current" if "#{controller.controller_name}" == "services" %>"><a href="/services">Services</a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "extras" %>"><a href="/extras">Extras</a></li>
 				<li class="<%= "current" if "#{controller.action_name}" == "faq" %>"><a href="/faq">FAQ</a></li>
-				<li class="<%= "current" if "#{controller.controller_name}" == "contacts" %>"><a href="/contact">Contact</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "contacts" %>"><a href="/contact">Contact</a></li>				
 			</ul>
+			
+			<div id="snLinks">
+				<a href="http://www.facebook.com/pages/SoCal-Judo/128179520598219"><%= image_tag('global/facebook.png', :alt => 'Facebook') %></a>
+				<a href="http://twitter.com/socaljudo"><%= image_tag('global/twitter.png', :alt => 'Twitter') %></a>
+			</div>
 		</nav>
 	</header>
 	

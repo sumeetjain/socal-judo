@@ -107,6 +107,9 @@ footer{
 	background: url(/images/global/logo.png) no-repeat;
 	margin: 30px auto 40px;
 }
+nav{
+	position: relative;
+}
 nav ul{
 	list-style: none;
 	margin: 0;
@@ -118,7 +121,7 @@ nav ul li{
 	display: inline;
 	padding: 0 13px;
 }
-nav a{
+nav li a{
 	text-decoration: none;
 	color: #444;
 	font-weight: bold;
@@ -127,4 +130,9 @@ nav a{
 }
 nav .current a{
 	color: #006937;
+}
+nav #snLinks{
+	position: absolute;
+	right: 0;
+	bottom: -9px;
 }
