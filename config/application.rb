@@ -8,6 +8,12 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module SocalJudo
   class Application < Rails::Application
+	
+		config.middleware.insert_before(Rack::Lock, Rack::Rewrite) do
+			r301 %r{.*}, "http://socaljudo.com$&", :if => Proc.new {|rack_env|
+				ENV['RACK_ENV'] == 'production' && rack_env['SERVER_NAME'] != "socaljudo.com"
+			}
+		end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
